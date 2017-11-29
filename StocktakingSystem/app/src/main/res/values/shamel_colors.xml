@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textview_color">#000000</color>
+    <color name="textview_bgcolor">#ffffff</color>
+    <color name="edittext_color">#ffffff</color>
+    <color name="button_color">#f6881f</color>
+    <color name="spinner_color">#f6881f</color>
+    <color name="checkbox_color">#f6881f</color>
+    <color name="activity_color">#f5f5f5</color>
+    
+    <color name="textview_version_number_color">#f6881f</color>
+</resources>

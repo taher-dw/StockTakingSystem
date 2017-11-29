@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stock_taking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.company.graduationproject.stocktakingsystem.stockTaking2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RadioGroup
+            android:id="@+id/rgBarcodeStockTakingGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:textSize="10pt"
+            android:visibility="gone"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/rbAutomaticBarcodeStockTaaking"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:paddingRight="15dp"
+                android:text="@string/barcode_automatic_stock_taking_save" />
+
+            <RadioButton
+                android:id="@+id/rbManualBarcodeStockTaaking"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingRight="15dp"
+                android:text="@string/barcode_manual_stock_taking_save" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/chkBarcodeStocktakingMode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:text="@string/barcode_stock_taking"
+            android:textSize="10pt"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <Button
+            android:id="@+id/btnDeleteStocktakingRecord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_clear_fields"
+            android:textSize="10pt"
+
+            />
+
+
+        <Button
+            android:id="@+id/btnInventoryDisplayTransactions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="عرض"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/btnInventoryClearFields"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="تفريغ"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/btnInventorySave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_save"
+            android:textSize="10pt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRequiredIDsStocktaking"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="2">
+
+
+        <Spinner
+            android:id="@+id/spRequiredIDsStocktaking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="right" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:weightSum="2"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:text="@string/tv_itme_number"
+                    android:textColor="#ffffff"
+                    android:textSize="10pt"
+
+
+                    />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acItemNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textDirection="rtl" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llItemName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/tv_itme_name"
+                    android:textColor="#ffffff"
+
+                    android:textSize="10pt" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acItemName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textDirection="rtl" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llBarcodeNumber"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:weightSum="2"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:text="@string/tv_barcode_number"
+                    android:textColor="#ffffff"
+                    android:textSize="10pt" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acBarcodeNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textDirection="rtl" />
+
+                <EditText
+                    android:id="@+id/etBarcodeNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textDirection="rtl"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFactoryNumber"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:text="@string/tv_factory_number"
+                    android:textColor="#ffffff"
+                    android:textSize="10pt" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acFactoryNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textDirection="rtl" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOriginalNumber"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:text="@string/tv_original_number"
+                    android:textColor="#ffffff"
+
+                    android:textSize="10pt" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/acOriginalNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:textDirection="rtl" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:text="@string/tv_inventory_unit"
+                    android:textColor="#ffffff"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#0cbbf1"
+                    android:paddingRight="30dp"
+                    android:text="@string/tv_item_quantity"
+                    android:textColor="#ffffff"
+                    android:textSize="10pt" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                />
+
+                <Spinner
+                    android:id="@+id/spInventoryUnit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right" />
+
+                <EditText
+                    android:id="@+id/etItemQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_drawable"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:textDirection="rtl" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

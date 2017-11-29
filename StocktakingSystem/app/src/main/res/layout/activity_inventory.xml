@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inventory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.company.graduationproject.stocktakingsystem.InventoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_Inventory_caption"
+            android:layout_weight="1"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:textSize="10pt"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/spInventoryNames2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:visibility="gone"
+            />
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/spInventoryNames"
+            style="@style/SpinnerTheme"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/spinner_bg"
+            android:dropDownVerticalOffset="35dp"
+            android:dropDownWidth="match_parent"
+            android:gravity="center_vertical"
+            android:layoutMode="opticalBounds"
+            android:minHeight="45dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/gray_55" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        >
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/spInventoryNamesIDs"
+            android:layout_gravity="right"
+            android:gravity="right"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_Inventory_session_status"
+            android:layout_weight="1"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:textSize="10pt"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_Inventory_session"
+            android:layout_weight="1"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:textSize="10pt"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/tvSessionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/spInventorySessions2"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:visibility="gone"
+            />
+        <Spinner
+            android:layout_weight="0.5"
+            android:id="@+id/spInventorySessions"
+            style="@style/SpinnerTheme"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/spinner_bg"
+            android:dropDownVerticalOffset="35dp"
+            android:dropDownWidth="match_parent"
+            android:gravity="center_vertical"
+            android:layoutMode="opticalBounds"
+            android:minHeight="45dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/gray_55" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        >
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/spInventorySessionsIDs"
+            android:layout_gravity="right"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tvStockTakingInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/btnStocktakingFields"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="حقول الجرد"
+            android:layout_weight="1"
+            android:textSize="12pt"
+
+            />
+
+        <Button
+            android:id="@+id/btnStartStocktaking"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_start_stocking"
+            android:layout_weight="1"
+            android:textSize="12pt"
+
+
+            />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btnStartStocktaking2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:background="@drawable/red_btn"
+            android:focusable="true"
+            android:keepScreenOn="false"
+            android:text="@string/btn_start_stocking"
+            android:textColor="@drawable/red_btn_txt_color"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+        <Button
+            android:id="@+id/btnDisplayStockTaking"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_go_to_InventoryTable_activity"
+            android:layout_weight="1"
+            android:textSize="12pt"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnCloseSession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/btn_close_session"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/btnPostingStockTaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/btn_post_session"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

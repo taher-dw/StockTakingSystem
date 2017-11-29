@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">StocktakingSystem</string>
+    <string name="barcode_stock_taking">استخدام قارئ الباركود</string>
+    <string name="barcode_manual_stock_taking_save">حفظ يدوي</string>
+    <string name="barcode_automatic_stock_taking_save">حفظ آلي</string>
+
+    <string name="title_defined_stockTaking_items">الأصناف المعرفة</string>
+    <string name="title_undefined_stockTaking_items">الأصناف غيرالمعرفة</string>
+    <string name="title_delivery_report">الشامل موبايل-تقرير الارسالية والقبوضات</string>
+    <string name="title_inventory_activity_admin_name">المسؤول عن الجرد :</string>
+    <string name="title_inventory_activity_session_stockTaking_date">التاريخ :</string>
+    <string name="title_inventory_activity_store_name">المستودع :</string>
+
+    <string name="btn_back_cata_lay">رجوع</string>
+    <string name="btn_stockTaking_fields">حقول الجرد</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_new_stockTaking">جرد جديد</string>
+    <string name="btn_UndefinedStockTaking_AutoManipulation">معالجة آلية</string>
+    <string name="btn_clear_fields">حذف</string>
+    <string name="btn_post_data">ترحيل البيانات</string>
+
+    <string name="btn_stock_search">بحــــث</string>
+    <string name="btn_start_stocking">بدء</string>
+    <string name="btn_close_session">إغلاق الجلسة</string>
+    <string name="btn_post_session">ترحيل الجلسة</string>
+    <string name="btn_go_to_stocktaking">الجرد</string>
+
+    <string name="tv_itme_name">اسم الصنف</string>
+    <string name="tv_itme_number">رقم الصنف</string>
+    <string name="tv_barcode_number">رقم الباركود</string>
+    <string name="tv_factory_number">رقم المصنع</string>
+    <string name="tv_original_number">الرقم الأصلي</string>
+    <string name="tv_item_quantity">الكمية</string>
+    <string name="tv_inventory_unit">الوحدة</string>
+
+    <string name="tv_Inventory_caption">اسم الجرد</string>
+    <string name="tv_Inventory_session">الجلسة</string>
+    <string name="tv_Inventory_session_status">حالة الجلسة</string>
+
+    <string name="tv_date">التاريخ</string>
+
+
+    <string name="msg_barcode_doesnt_exist">الباركود غير موجود</string>
+    <string name="msg_barcode_doesnt_exist_but_willBeHandeled">هذا الباركود غير موجود اضغط متابعة لإدخال اسم لهذا الصنف </string>
+    <string name="msg_stockTaking_done">تم الجرد</string>
+    <string name="msg_manual_stockTaking_mode_no_barcode">أنت في وضع الجرد اليدوي و ممنوع استخدام قارئ الباركود</string>
+    <string name="msg_no_stockTakings">    الرجاء سحب الجرد أولا من قائمة سحب البيانات</string>
+    <string name="msg_username_required">الرجاء ادخال رقم المستخدم</string>
+    <string name="msg_password_required">الرجاء ادخال كلمة المرور</string>
+    <string name="msg_invalid_user_name_password">رقم المستخدم او كلمة المرور غير صحيحة</string>
+    <string name="msg_check_user_auth_over_web">رقم المستخدم غير موجود في قاعدة البيانات, هل تريد تحميله من الويب؟</string>
+    <string name="msg_check_user_auth_over_web_online">سيتم فحص المستخدم وكلمة المرور من الويب, هل انت متاكد؟</string>
+
+    <string name="msg_receiving_stockTakings">سحب الجرد </string>
+    <string name="msg_receiving_stockTaking_sessions">سحب جلسات الجرد </string>
+    <string name="msg_receiving_units">سحب الوحدات</string>
+    <string name="msg_receiving_stocks">سحب الاصناف</string>
+
+    <string name="msg_done_successfully">تمت العملية بنجاح</string>
+    <string name="msg_done_failed">فشلت العملية</string>
+
+    <string name="msg_ask_to_exit">هل أنت متأكد من الخروج؟</string>
+
+    <string name="btn_go_to_InventoryTable_activity">عرض</string>
+    <string name="msg_stocktaking_done">تمت العملية بنجاح</string>
+    <string name="msg_stocktaking_delete_done">تمت عملية الحذف بنجاح</string>
+    <string name="msg_item_does_not_exist">"هذا الصنف غير مجرود "</string>
+    <string name="msg_please_search_using_any_field">الرجاء البحث في أحد الحقول</string>
+    <string name="msg_please_choose_item_from_list">"الرجاء اختيار الصنف من القائمة "</string>
+    <string name="msg_quantity_must_be_gt_zero">"لا يجوز أن تكون الكمية صفرا أو أقل "</string>
+    <string name="msg_please_enter_quantity">"الرجاء إدخال كمية  "</string>
+    <string name="msg_manual_stocktaking_mode">"أنت الآن في وضع الجرد اليدوي "</string>
+    <string name="msg_stocktaking_update_mode">"أنت الآن في وضع التعديل "</string>
+    <string name="msg_barcode_stocktaking_mode">أنت الآن في وضع الجرد باستخدام قارئ الباركود</string>
+    <string name="btn_continue_saving_undefined_barcode">متابعة</string>
+    <string name="msg_please_enter_undefined_barcode_name">الرجاء إدخال اسم للصنف</string>
+    <string name="msg_undefined_barcode_name_dialog_title">إالإسم</string>
+    <string name="msg_settings_dialog_title">إدخال عنوان الويب :</string>
+    <string name="msg_undefined_barcode_has_not_been_saved">لم يتم حفظ الصنف</string>
+    <string name="enter_undefined_barcode_name">إدخال</string>
+
+</resources>

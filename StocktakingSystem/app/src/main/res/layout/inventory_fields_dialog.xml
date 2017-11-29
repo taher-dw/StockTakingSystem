@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="4"
+
+        >
+        <CheckBox
+            android:id="@+id/chkItemName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_itme_name"
+            android:layout_weight="1"
+            />
+        <CheckBox
+            android:id="@+id/chkBarcodeNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_barcode_number"
+            android:layout_weight="1"
+            />
+        <CheckBox
+            android:id="@+id/chkFactoryNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_factory_number"
+            android:layout_weight="1"
+            />
+        <CheckBox
+            android:id="@+id/chkOriginalNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tv_original_number"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnDialogExit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_back_cata_lay"
+            android:layout_weight="1.1"
+            android:textSize="10pt"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:id="@+id/btnDialogSave"
+            android:text="@string/btn_save"
+            android:textSize="10pt"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

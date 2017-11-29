@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="accent">#3e464c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="transparent00">#00000000</color>
+    <color name="transparent05">#0D000000</color>
+    <color name="transparent10">#1A000000</color>
+    <color name="transparent15">#26000000</color>
+    <color name="transparent20">#33000000</color>
+    <color name="transparent25">#40000000</color>
+    <color name="transparent30">#4D000000</color>
+    <color name="transparent35">#59000000</color>
+    <color name="transparent40">#66000000</color>
+    <color name="transparent45">#73000000</color>
+    <color name="transparent50">#80000000</color>
+    <color name="transparent55">#8C000000</color>
+    <color name="transparent60">#99000000</color>
+    <color name="transparent66">#A6000000</color>
+    <color name="transparent70">#B3000000</color>
+    <color name="transparent75">#BF000000</color>
+    <color name="transparent80">#CC000000</color>
+    <color name="transparent85">#D9000000</color>
+    <color name="transparent90">#E6000000</color>
+    <color name="transparent95">#F2000000</color>
+    <color name="transparent100">#FF000000</color>
+
+    <item name="transparent00_gray" type="color">#00888888</item>
+    <item name="transparent05_gray" type="color">#0D888888</item>
+    <item name="transparent10_gray" type="color">#1A888888</item>
+    <item name="transparent15_gray" type="color">#26888888</item>
+    <item name="transparent20_gray" type="color">#33888888</item>
+    <item name="transparent25_gray" type="color">#40888888</item>
+    <item name="transparent30_gray" type="color">#4D888888</item>
+    <item name="transparent35_gray" type="color">#59888888</item>
+    <item name="transparent40_gray" type="color">#66888888</item>
+    <item name="transparent45_gray" type="color">#73888888</item>
+    <item name="transparent50_gray" type="color">#80888888</item>
+    <item name="transparent55_gray" type="color">#8C888888</item>
+    <item name="transparent60_gray" type="color">#99888888</item>
+    <item name="transparent66_gray" type="color">#A6888888</item>
+    <item name="transparent70_gray" type="color">#B3888888</item>
+    <item name="transparent75_gray" type="color">#B888888F</item>
+    <item name="transparent80_gray" type="color">#CC888888</item>
+    <item name="transparent85_gray" type="color">#D9888888</item>
+    <item name="transparent90_gray" type="color">#E6888888</item>
+    <item name="transparent95_gray" type="color">#F2888888</item>
+    <item name="transparent100_gray" type="color">#FF888888</item>
+
+    <color name="transparent00_white">#00FFFFFF</color>
+    <color name="transparent05_white">#0DFFFFFF</color>
+    <color name="transparent10_white">#1AFFFFFF</color>
+    <color name="transparent15_white">#26FFFFFF</color>
+    <color name="transparent20_white">#33FFFFFF</color>
+    <color name="transparent25_white">#40FFFFFF</color>
+    <color name="transparent30_white">#4DFFFFFF</color>
+    <color name="transparent35_white">#59FFFFFF</color>
+    <color name="transparent40_white">#66FFFFFF</color>
+    <color name="transparent45_white">#73FFFFFF</color>
+    <color name="transparent50_white">#80FFFFFF</color>
+    <color name="transparent55_white">#8CFFFFFF</color>
+    <color name="transparent60_white">#99FFFFFF</color>
+    <color name="transparent66_white">#A6FFFFFF</color>
+    <color name="transparent70_white">#B3FFFFFF</color>
+    <color name="transparent75_white">#BFFFFFFF</color>
+    <color name="transparent80_white">#CCFFFFFF</color>
+    <color name="transparent85_white">#D9FFFFFF</color>
+    <color name="transparent90_white">#E6FFFFFF</color>
+    <color name="transparent95_white">#F2FFFFFF</color>
+    <color name="transparent100_white">#FFFFFFFF</color>
+
+
+    <color name="transparent00_blue">#000088dd</color>
+    <color name="transparent05_blue">#0D0088dd</color>
+    <color name="transparent10_blue">#1A0088dd</color>
+    <color name="transparent15_blue">#260088dd</color>
+    <color name="transparent20_blue">#330088dd</color>
+    <color name="transparent25_blue">#400088dd</color>
+    <color name="transparent30_blue">#4D0088dd</color>
+    <color name="transparent35_blue">#590088dd</color>
+    <color name="transparent40_blue">#660088dd</color>
+    <color name="transparent45_blue">#730088dd</color>
+    <color name="transparent50_blue">#800088dd</color>
+    <color name="transparent55_blue">#8C0088dd</color>
+    <color name="transparent60_blue">#990088dd</color>
+    <color name="transparent66_blue">#A60088dd</color>
+    <color name="transparent70_blue">#B30088dd</color>
+    <color name="transparent75_blue">#BF0088dd</color>
+    <color name="transparent80_blue">#CC0088dd</color>
+    <color name="transparent85_blue">#D90088dd</color>
+    <color name="transparent90_blue">#E60088dd</color>
+    <color name="transparent95_blue">#F20088dd</color>
+    <color name="transparent100_blue">#FF0088dd</color>
+
+    <color name="transparent00_red">#00af4034</color>
+    <color name="transparent05_red">#0Daf4034</color>
+    <color name="transparent10_red">#1Aaf4034</color>
+    <color name="transparent15_red">#26af4034</color>
+    <color name="transparent20_red">#33af4034</color>
+    <color name="transparent25_red">#40af4034</color>
+    <color name="transparent30_red">#4Daf4034</color>
+    <color name="transparent35_red">#59af4034</color>
+    <color name="transparent40_red">#66af4034</color>
+    <color name="transparent45_red">#73af4034</color>
+    <color name="transparent50_red">#80af4034</color>
+    <color name="transparent55_red">#8Caf4034</color>
+    <color name="transparent60_red">#99af4034</color>
+    <color name="transparent66_red">#A6af4034</color>
+    <color name="transparent70_red">#B3af4034</color>
+    <color name="transparent75_red">#BFaf4034</color>
+    <color name="transparent80_red">#CCaf4034</color>
+    <color name="transparent85_red">#D9af4034</color>
+    <color name="transparent90_red">#E6af4034</color>
+    <color name="transparent95_red">#F2af4034</color>
+    <color name="transparent100_red">#FFaf4034</color>
+
+
+    <color name="transparent00_green">#00006156</color>
+    <color name="transparent05_green">#0D006156</color>
+    <color name="transparent10_green">#1A006156</color>
+    <color name="transparent15_green">#26006156</color>
+    <color name="transparent20_green">#33006156</color>
+    <color name="transparent25_green">#40006156</color>
+    <color name="transparent30_green">#4D006156</color>
+    <color name="transparent35_green">#59006156</color>
+    <color name="transparent40_green">#66006156</color>
+    <color name="transparent45_green">#73006156</color>
+    <color name="transparent50_green">#80006156</color>
+    <color name="transparent55_green">#8C006156</color>
+    <color name="transparent60_green">#99006156</color>
+    <color name="transparent66_green">#A6006156</color>
+    <color name="transparent70_green">#B3006156</color>
+    <color name="transparent75_green">#BF006156</color>
+    <color name="transparent80_green">#CC006156</color>
+    <color name="transparent85_green">#D9006156</color>
+    <color name="transparent90_green">#E6006156</color>
+    <color name="transparent95_green">#F2006156</color>
+    <color name="transparent100_green">#FF006156</color>
+
+    <color name="gray_11">#111111</color>
+    <color name="gray_22">#222222</color>
+    <color name="gray_33">#333333</color>
+    <color name="gray_44">#484848</color>
+    <color name="gray_48">#444444</color>
+    <color name="gray_55">#555555</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_77">#777777</color>
+    <color name="gray_88">#888888</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_aa">#aaaaaa</color>
+    <color name="gray_bb">#bbbbbb</color>
+    <color name="gray_cc">#cccccc</color>
+    <color name="gray_dd">#dddddd</color>
+    <color name="gray_ee">#eeeeee</color>
+    <color name="gray_e6">#e6e5e5</color>
+    <color name="gray_f2">#F2F2F2</color>
+    <color name="gray_fe">#fefefe</color>
+
+    <color name="default_selected">#8BC34A</color>
+
+    <color name="warning">#ffab00</color>
+    <color name="success">#8BC34A</color>
+    <color name="error">#d50000</color>
+
+    <color name="chat_bg">#009688</color>
+    <color name="multiple_image_select_primary">#424242</color>
+    <color name="multiple_image_select_primaryDark">#3e464c</color>
+    <color name="multiple_image_select_primaryLight">#3e464c</color>
+    <color name="multiple_image_select_accent">#3e464c</color>
+    <color name="multiple_image_select_primaryText">#ffffff</color>
+    <color name="multiple_image_select_secondaryText">#ffffff</color>
+    <color name="multiple_image_select_divider">#1A000000</color>
+    <color name="multiple_image_select_toolbarPrimaryText">#FFFFFF</color>
+    <color name="multiple_image_select_albumTextBackground">#99FFFFFF</color>
+    <color name="multiple_image_select_imageSelectBackground">#ffffff</color>
+
+
+    <color name="c0">#424242</color>
+    <color name="c1">#ffc107</color>
+    <color name="c2">#ff9800</color>
+    <color name="c3">#ff5722</color>
+    <color name="c4">#ff1744</color>
+    <color name="c5">#795548</color>
+    <color name="c6">#880e4f</color>
+    <color name="c7">#9c27b0</color>
+    <color name="c8">#e040fb</color>
+    <color name="c9">#3f51b5</color>
+    <color name="c10">#02196f</color>
+    <color name="c11">#0d47a1</color>
+    <color name="c12">#03a9f4</color>
+    <color name="c13">#006064</color>
+    <color name="c14">#009688</color>
+    <color name="c15">#1de9b6</color>
+    <color name="c16">#4caf50</color>
+    <color name="c17">#8bc34a</color>
+    <color name="c18">#cddc39</color>
+    <color name="c19">#9e9e9e</color>
+    <color name="c20">#FF4081</color>
+    <color name="c21">#C2185B</color>
+    <color name="c22">#673AB7</color>
+    <color name="c23">#303F9F</color>
+    <color name="c24">#0097A7</color>
+    <color name="c25">#00796B</color>
+    <color name="c26">#4CAF50</color>
+    <color name="c27">#795548</color>
+    <color name="c28">#607D8B</color>
+    <color name="c29">#FFA000</color>
+    <color name="c30">#607d8b</color>
+
+</resources>
